@@ -1,5 +1,78 @@
-div {
-    border-style: dashed;
-    border-width: 1px;
-    border-color: #444;
+:root {
+    --background-color: #1f2937;
+    --text-color1: #ecec51;
+    --text-color2: #E5E7EB;
+    --button-color: #3882F6;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 3vw;
+    color: var(--text-color1);
+    font-weight: bold;
+
+}
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+.blockbusterlogo {
+    height: 70px;
+    width: auto;
+    margin: 5px;
+}
+
+.header {
+    background-color: var(--background-color);
+    color: #F9FAF8;
+    width: 100vw;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5vw;
+    margin-left: 3vw;
+}
+.header-left {
+    width: 33vw
+}
+.heroMainText {
+    font-size: 48px;
+    color: var(--text-color1);
+    font-weight: bold;
+}
+.blockbusterPlus {
+    font-weight: bold;
+}
+.heroSubText {
+    color: var(--text-color2);
+    letter-spacing: 0.6px;
+    text-align: justify;
+
+}
+
+
+.headerImage {
+    min-height: 100%;
+    width: 54vw;
+    object-fit: cover;
+
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    gap: 4vw;
 }
