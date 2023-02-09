@@ -59,6 +59,7 @@ a {
     color: var(--text-color2);
     letter-spacing: 0.6px;
     text-align: justify;
+    font-size: 1.25rem;
 
 }
 .headerImage {
@@ -84,6 +85,7 @@ a {
 .section1-title {
     display: flex;
     justify-content: center;
+    padding-top: 2vw;
 }
 
 .section1-info-container {
@@ -106,6 +108,7 @@ a {
     justify-content:center ;
     align-items: center;
     padding-bottom: 1.5vw;
+    font-size: 1.25rem;
 }
 
 .section1-img {
@@ -116,3 +119,5 @@ a {
     object-fit: cover;
     box-shadow: 3px 6px 8px lightyellow;
 }
+
+/* Section 1 CSS */
